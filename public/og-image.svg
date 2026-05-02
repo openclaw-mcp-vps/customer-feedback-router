@@ -1,0 +1,21 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#1f2a44"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1b2434"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="90" y="90" width="1020" height="450" rx="28" fill="url(#card)" stroke="#2a3550" stroke-width="2"/>
+  <text x="150" y="220" fill="#f3f6ff" font-family="Arial, sans-serif" font-size="62" font-weight="700">Customer Feedback Router</text>
+  <text x="150" y="290" fill="#a2b0d3" font-family="Arial, sans-serif" font-size="30">AI-powered feedback classification and owner routing</text>
+  <rect x="150" y="345" width="290" height="70" rx="14" fill="#2f81f7"/>
+  <text x="196" y="389" fill="white" font-family="Arial, sans-serif" font-size="30" font-weight="700">$35 / month</text>
+  <rect x="500" y="345" width="460" height="145" rx="16" fill="#0d1117" stroke="#2a3550"/>
+  <text x="535" y="390" fill="#f3f6ff" font-family="Arial, sans-serif" font-size="28">Routing accuracy tracked live</text>
+  <text x="535" y="432" fill="#a2b0d3" font-family="Arial, sans-serif" font-size="24">Slack • Email • Support Tickets</text>
+</svg>

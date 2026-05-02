@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --surface: #111827;
+  --surface-elevated: #1b2434;
+  --border: #2a3550;
+  --text-primary: #f3f6ff;
+  --text-secondary: #a2b0d3;
+  --accent: #2f81f7;
+  --accent-strong: #1f6feb;
+  --success: #2ea043;
+  --warning: #d29922;
+  --danger: #f85149;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html,
+body {
+  min-height: 100%;
+  background: radial-gradient(circle at 15% -20%, #1f2a44 0%, var(--bg) 40%), var(--bg);
+  color: var(--text-primary);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-space-grotesk), "Segoe UI", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.section-card {
+  background: linear-gradient(180deg, rgba(26, 36, 57, 0.85), rgba(17, 24, 39, 0.92));
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  backdrop-filter: blur(4px);
+}
